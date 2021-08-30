@@ -1,17 +1,20 @@
 <template>
-<div>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <transition name="fade" mode="out-in">
-        <router-view />
-      </transition>
-</div>
+  <div>
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
+    <Home />
+  </div>
 </template>
 
 <script>
-
+import Home from "./components/Home.vue";
 export default {
-  name: 'App',
-}
+  name: "App",
+  components: {
+    Home,
+  },
+};
 </script>
 
 <style>
