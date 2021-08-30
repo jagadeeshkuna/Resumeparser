@@ -1,24 +1,14 @@
-# resumeparser
+# Resumeparser
+### Installation
 
-## Project setup
-```
-yarn install
-```
+#### Install the dependencies and start the server for frontend
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+```sh
+$ git clone https://github.com/jagadeeshkuna/Resumeparser.git
+$ cd Resumeparser/frontend
+$ yarn install
+$ yarn serve
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Install the dependencies and start the server for backend
+$ cd Resumeparser/backend
+$ npm run serve
