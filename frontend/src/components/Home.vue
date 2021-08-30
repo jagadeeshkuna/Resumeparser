@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Candidate from "./Candidate.vue";
+import Candidate from "./Candidate";
 export default {
   name: "Home",
   components: {
